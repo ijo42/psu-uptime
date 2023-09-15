@@ -6,7 +6,7 @@ sites:
   - name: ETIS
     url: https://student.psu.ru
   - name: Main site
-    url: http://www.psu0.ru
+    url: http://www.psu.ru
   - name: Mail Server
     url: https://mail.psu.ru
     __dangerous__disable_verify_peer: true
