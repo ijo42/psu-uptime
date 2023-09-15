@@ -6,9 +6,10 @@ sites:
   - name: ETIS
     url: https://student.psu.ru
   - name: Main site
-    url: https://psu.ru
+    url: http://www.psu.ru
   - name: Mail Server
     url: https://mail.psu.ru
+    __dangerous__disable_verify_peer: true
   - name: Moodle
     url: https://online.psu.ru
 
@@ -26,6 +27,16 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/60 * * * *"
+
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
