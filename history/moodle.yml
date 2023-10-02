@@ -1,7 +1,7 @@
 url: https://online.psu.ru
-status: up
-code: 200
-responseTime: 2291
-lastUpdated: 2023-10-01T23:16:09.303Z
+status: down
+code: 503
+responseTime: 844
+lastUpdated: 2023-10-02T13:17:47.195Z
 startTime: 2023-09-15T13:55:35.541Z
 generator: Upptime <https://github.com/upptime/upptime>
