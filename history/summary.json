@@ -25,9 +25,9 @@
     "url": "http://www.psu.ru",
     "icon": "https://icons.duckduckgo.com/ip3/www.psu.ru.ico",
     "slug": "main-site",
-    "status": "up",
+    "status": "down",
     "uptime": "99.89%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.89%",
@@ -37,6 +37,7 @@
     "timeMonth": 2258,
     "timeYear": 2334,
     "dailyMinutesDown": {
+      "2023-12-19": 0,
       "2023-10-25": 64,
       "2023-10-24": 59,
       "2023-09-15": 26
